@@ -49,12 +49,12 @@ trep = 0.01  # tiempo entre representaciones
 Datos rendija
 '''
 #valores de los distintos parametros que estudiaremos
-n_s = [2]  # numero de rendijas
-a_s = [20, 50, 100]  # distancia entre rendijas (en nº de veces dy)
-d_s = [50, 100]  # distancia a la pantalla de las rendijas (en nº de veces dx)
+n_s = [1,2,3,4,5,6]  # numero de rendijas
+a_s = [20]  # distancia entre rendijas (en nº de veces dy)
+d_s = [100]  # distancia a la pantalla de las rendijas (en nº de veces dx)
 
 L = 2  # anchura de las rendijas (en nº de veces dy)
-namejpg = f'Variasrendijas.jpg'  # nombre que pondremos a la imagen resultante
+namejpg = f'Variasrendijasv3.jpg'  # nombre que pondremos a la imagen resultante
 
 posx = 200  # posicion donde se coloca la pared con la rendijas
 
@@ -190,7 +190,6 @@ def Simulacion(n_list, d_list, a_list):
                 ax3.plot(ypos, sumI)
 
     plt.savefig(namejpg)
-    plt.legend()
     plt.show()
 
 
