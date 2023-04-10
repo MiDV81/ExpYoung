@@ -57,6 +57,14 @@ namejpg = f'Variasrendijas.jpg'  # nombre que pondremos a la imagen resultante
 
 posx = 200 # posicion donde se coloca la pared con la rendijas
 
+print(f'''
+Datos introducidos (en unidades dx/dy):
+    Número de rendijas: {n_s}
+    Distancia entre rendijas: {a_s}
+    Anchura de las rendijas: {L}
+    Distancia de la pantalla: {d_s}
+    ''')
+
 '''
 Pulso Inicial
 '''

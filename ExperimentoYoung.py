@@ -49,7 +49,7 @@ trep = 0.01 # tiempo entre representaciones
 Datos rendija
 '''
 
-numrendijas = 1 # número de rendijas que estudiaremos
+numrendijas = 2 # número de rendijas que estudiaremos
 
 a = 20 #distancia entre rendijas (en nº de veces dy)
 L = 2  # anchura de las rendijas (en nº de veces dy)
@@ -60,6 +60,13 @@ namejpg = f'{numrendijas}rend_a{a}_d{d}.jpg' #nombre que pondremos a la imagen r
 start = int((size-(numrendijas-1)*a-numrendijas*L)/2) # indice inicial para colocar las rendijas
 posx = 200 # posicion donde se coloca la pared con la rendijas
 
+print(f'''
+Datos introducidos (en unidades dx/dy):
+    Número de rendijas: {numrendijas}
+    Distancia entre rendijas: {a}
+    Anchura de las rendijas: {L}
+    Distancia de la pantalla: {d}
+    ''')
 '''
 Pulso Inicial
 '''

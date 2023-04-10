@@ -56,7 +56,16 @@ d_s = [100]  # distancia a la pantalla de las rendijas (en nº de veces dx)
 L = 2  # anchura de las rendijas (en nº de veces dy)
 namejpg = f'Variasrendijasv3.jpg'  # nombre que pondremos a la imagen resultante
 
+print(f'''
+Datos introducidos (en unidades dx/dy):
+    Número de rendijas: {n_s}
+    Distancia entre rendijas: {a_s}
+    Anchura de las rendijas: {L}
+    Distancia de la pantalla: {d_s}
+    ''')
+
 posx = 200  # posicion donde se coloca la pared con la rendijas
+
 
 '''
 Pulso Inicial
